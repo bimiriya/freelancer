@@ -5,25 +5,29 @@
 	<title>Freelancer</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:700" rel="stylesheet">
 </head>
 <body>
-	<header>
+<!--fixed top left title-link and top right navigation links-->
+	<nav>
 	<div class=container>
 		<a href=""><h1>START BOOTSTRAP</h1></a>
-		<div id="header-links">
+		<div id="nav-links">
 			<a href="#portfolio">PORTFOLIO</a>
 			<a href="#about">ABOUT</a>
 			<a href="#contact">CONTACT</a>
 		</div>
 		</div>
-	</header>
+	</nav>
 
+<!--fixed nav filler-->
 	<div id="filler"></div>
 
+<!--home con imagen y título-->
 	<section id="home">
 		<img src="assets/images/profile.png" alt="">
 		<h1>START BOOTSTRAP</h1>
+		<!--separador estrella-->
 		<div class="separator-white">
 			<div></div>
 			<i class="fa fa-star" aria-hidden="true"></i>
@@ -32,89 +36,82 @@
 		<p>Web Developer - Graphic Artist - User Experience Designer</p>
 	</section>
 
+<!--portfolio con title y tabla de imagenes-->
 	<section id="portfolio">
 		<h2>PORTFOLIO</h2>
+		<!--separador estrella-->
 		<div class="separator-dark">
 			<div></div>
 			<i class="fa fa-star" aria-hidden="true"></i>
 			<div></div>
 		</div>
+		<!--tabla de imagenes-->
 		<div class="img-table">
-		<a href="">
 			<img src="assets/images/portfolio/cabin.png">
-		</a>
-		<a href="">
 			<img src="assets/images/portfolio/cake.png">
-		</a>
-		<a href="">
 			<img src="assets/images/portfolio/circus.png">
-		</a>
-		<a href="">
 			<img src="assets/images/portfolio/game.png">
-		</a>
-		<a href="">
 			<img src="assets/images/portfolio/safe.png">
-		</a>
-		<a href="">
 			<img src="assets/images/portfolio/submarine.png">
-		</a>
-		</div>
 	</section>
 
+<!--about con dos parrafos y download button-->
 	<section id="about">
 		<h2>ABOUT</h2>
+		<!--separador estrella-->
 		<div class="separator-white">
 			<div></div>
 			<i class="fa fa-star" aria-hidden="true"></i>
 			<div></div>
 		</div>
+		<!--parrafos de info-->
 		<div class="description">
 		<div class="about-content">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic natus ullam qui veniam recusandae iure nemo molestias incidunt? Ipsa eligendi velit laborum sunt vitae, nesciunt animi eos ad reprehenderit mollitia!</p>
+		<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
 		</div>
 		<div class="about-content">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatibus doloribus optio, ratione odit, eligendi, tempore minima repudiandae dolorem accusantium laudantium officia beatae quae neque eum totam amet tempora! Quibusdam!</p>
+		<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
 		</div>
 		</div>
+		<!--download button-->
 		<div id="download-button">
 			<i class="fa fa-download" aria-hidden="true"></i>
 			<a href="">Download Theme</a>
 		</div>
 	</section>
 
+<!--contact con formulario-->
 	<section id="contact">
 		<h2>CONTACT ME</h2>
+		<!--separador estrella-->
 		<div class="separator-dark">
 			<div></div>
 			<i class="fa fa-star" aria-hidden="true"></i>
 			<div></div>
 		</div>
+		<!--formulario-->
 		<form class="formulario">
-  <div>
-  <input type="text" placeholder="Name">
-  </div>
-  <div>
-  <input type="text" placeholder="Email Adress">
-  </div>
-  <div>
-  <input type="text" placeholder="Phone Number">
-  </div>
-  <div>
-  	<input class="msg" type="text" placeholder="Message">
-  </div>
-</form>
-<div class="send-button">
-<a href="">Send</a>
+ 			<input type="text" placeholder="Name">
+  			<input type="text" placeholder="Email Adress">
+  			<input type="text" placeholder="Phone Number">
+  			<input class="msg" rows="5" type="text" placeholder="Message">
+		</form>
+		<div class="send-button">
+			<a href="">Send</a>
+		</div>
 	</section>
 
+<!--info (pre-footer)-->
 	<section id="info">
 		<div>
 			<h3>LOCATION</h3>
 			<p>3481 Melrose Place</p>
 			<p>Beverly Hills, CA 90210</p>
 		</div>
+
 		<div>
 		<h3>AROUND THE WEB</h3>
+		<!--SNS icons-->
 		<div class="bottom-links">
 		<a href="">
 			<i class="fa fa-facebook" aria-hidden="true"></i>
@@ -133,6 +130,7 @@
 		</a>
 		</div>
 		</div>
+
 		<div>
 			<h3>ABOUT FREELANCER</h3>
 			<p>Freelance is a free to use, open source</p>
@@ -140,8 +138,9 @@
 		</div>
 	</section>
 
+<!--footer-->
 	<footer>
-		<p>Copyright © Your Website 2017</p>
+		<p>Copyright &#169; Your Website 2017</p>
 	</footer>
 </body>
 </html>
